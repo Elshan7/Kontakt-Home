@@ -4,9 +4,15 @@ import { FaTruckFast } from "react-icons/fa6";
 import { IoIosHeartEmpty } from "react-icons/io";
 import { IoFilterOutline } from "react-icons/io5";
 import { FaPlus } from "react-icons/fa6";
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 const Kampaniya = () => {
     return (
+
+        <>
+        <Header/>
+
         <section className='kampaniya'>
             <div className="cont-top">
                 <div className="cont-top-sub">
@@ -1662,10 +1668,20 @@ const Kampaniya = () => {
 
             </div>
 
+            {/* <Footer/> */}
+
 
 
 
         </section>
+
+      
+
+        </>
+
+       
+
+       
     )
 }
 
